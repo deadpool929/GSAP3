@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  border-bottom: 2px solid white;
+}
+
+.nav-2 {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+.nav-3 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.nav-3 button {
+  padding: 10px 20px;
+  color: black;
+  font-weight: 500;
+}
+
+.left-img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.page1 {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+
+.page2 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.container1 {
+  height: 80%;
+  width: 50%;
+  padding: 10%;
+}
+.container1 h1 {
+  padding: 2px;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+h3 {
+  text-transform: uppercase;
+}
+h4 {
+  text-transform: uppercase;
+}
+.container2 {
+  height: 90%;
+  width: 50%;
+  padding: 10%;
+}
+
+.page2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 40px;
+}
+.page2 h3 {
+  padding: 20px;
+}
+.box {
+  height: 200px;
+  width: 300px;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
